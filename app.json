@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Expense Tracker",
+    "slug": "expense-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/expense.png",
+  "scheme": "expensetracker",
+  "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aid_an.expensetracker"
+    },
+    "android": {
+      "package": "com.aid_an.expensetracker",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/expense.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "73c70fb0-fa0d-498c-84d0-4eb548330bb6"
+      }
+    },
+    "owner": "aid_an",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/73c70fb0-fa0d-498c-84d0-4eb548330bb6"
+    }
+  }
+}
