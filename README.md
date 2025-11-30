@@ -27,6 +27,12 @@ This project satisfies the requirements of the Mobile Application Development pr
     - [Quality Gates](#quality-gates)
     - [Troubleshooting](#troubleshooting)
   - [Screenshots](#screenshots)
+  - [Home / Transactions](#home--transactions)
+  - [Add / Edit Transaction Flow](#add--edit-transaction-flow)
+  - [Summary Dashboard](#summary-dashboard)
+  - [Calendar Range Picker](#calendar-range-picker)
+  - [Budgets Overview](#budgets-overview)
+  - [Settings \& Theme Preferences](#settings--theme-preferences)
   - [Testing \& Debugging](#testing--debugging)
   - [Known Issues \& Future Improvements](#known-issues--future-improvements)
   - [License](#license)
@@ -148,27 +154,29 @@ npm run typecheck    # TypeScript structural checks
 ## Screenshots 
 
 
-| Screen | 
 
-| Home / Transactions | 
+
+## Home / Transactions 
 
 ![alt text](image.png)
 
-| Add / Edit Transaction Flow |
+## Add / Edit Transaction Flow 
 
 ![alt text](image-1.png)
 
-| Summary Dashboard | 
+## Summary Dashboard 
 
 ![alt text](image-2.png)
 
-| Calendar Range Picker | 
+## Calendar Range Picker  
 
 ![alt text](image-3.png)
 
-| Budgets Overview | ![alt text](image-4.png)
+## Budgets Overview 
 
-| Settings & Theme Preferences | 
+![alt text](image-4.png)
+
+## Settings & Theme Preferences 
 
 ![alt text](image-5.png)
 
