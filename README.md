@@ -150,17 +150,27 @@ npm run typecheck    # TypeScript structural checks
 
 | Screen | 
 
-| Home / Transactions | ![alt text](image.png)
+| Home / Transactions | 
 
-| Add / Edit Transaction Flow |![alt text](image-1.png)
+![alt text](image.png)
 
-| Summary Dashboard | ![alt text](image-2.png)
+| Add / Edit Transaction Flow |
 
-| Calendar Range Picker | ![alt text](image-3.png)
+![alt text](image-1.png)
+
+| Summary Dashboard | 
+
+![alt text](image-2.png)
+
+| Calendar Range Picker | 
+
+![alt text](image-3.png)
 
 | Budgets Overview | ![alt text](image-4.png)
 
-| Settings & Theme Preferences | ![alt text](image-5.png)
+| Settings & Theme Preferences | 
+
+![alt text](image-5.png)
 
 ## Testing & Debugging
 - **Smoke Tests** – Add, edit, and delete multiple transactions; restart the app to confirm hydration works.
