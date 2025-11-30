@@ -24,15 +24,15 @@
     },
     "extra": {
       "eas": {
-        "projectId": "73c70fb0-fa0d-498c-84d0-4eb548330bb6"
+        "projectId": "YOUR_EAS_PROJECT_ID"
       }
     },
-    "owner": "aid_an",
+    "owner": "YOUR_EXPO_OWNER",
     "runtimeVersion": {
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/73c70fb0-fa0d-498c-84d0-4eb548330bb6"
+      "url": "https://u.expo.dev/YOUR_EAS_PROJECT_ID"
     }
   }
 }
