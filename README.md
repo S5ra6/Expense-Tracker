@@ -197,8 +197,8 @@ npm run typecheck    # TypeScript structural checks
 ## Academic Project
 This is an educational project developed as part of:
 
-Module: UFCF7H-15-3 Mobile Applications Module
-Institution: University of West of England in association with Villa College
+- **Module**: UFCF7H-15-3 Mobile Applications Module
+- **Institution**: University of West of England in association with Villa College
 
 ## License
 MIT License
