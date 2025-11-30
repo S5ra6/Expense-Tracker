@@ -25,7 +25,8 @@ This project satisfies the requirements of the Mobile Application Development pr
     - [Run in Development](#run-in-development)
     - [Platform-Specific Builds](#platform-specific-builds)
     - [Quality Gates](#quality-gates)
-  - [Screenshots (placeholders)](#screenshots-placeholders)
+    - [Troubleshooting](#troubleshooting)
+  - [Screenshots](#screenshots)
   - [Testing \& Debugging](#testing--debugging)
   - [Known Issues \& Future Improvements](#known-issues--future-improvements)
   - [License](#license)
@@ -144,16 +145,21 @@ npm run typecheck    # TypeScript structural checks
 - **Patch was not applied** – Ensure `postinstall` ran (re-run with `npm install && npx patch-package @expo/cli`). You should see `patches/@expo+cli+0.17.13.patch` in the repo; never delete it unless upgrading Expo to a version that already includes the fix.
 - **Still seeing stale assets** – Delete the `.expo` folder in the project root and restart Expo (`npm run web` or `npm start`).
 
-## Screenshots (placeholders)
-Replace each placeholder image with the final PNG/JPG before submission.
+## Screenshots 
+
 
 | Screen | 
-| --- | --- |
+
 | Home / Transactions | ![alt text](image.png)
+
 | Add / Edit Transaction Flow |![alt text](image-1.png)
+
 | Summary Dashboard | ![alt text](image-2.png)
+
 | Calendar Range Picker | ![alt text](image-3.png)
+
 | Budgets Overview | ![alt text](image-4.png)
+
 | Settings & Theme Preferences | ![alt text](image-5.png)
 
 ## Testing & Debugging
