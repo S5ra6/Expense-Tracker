@@ -22,6 +22,7 @@ This project satisfies the requirements of the Mobile Application Development pr
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
+    - [Configure Expo (required before EAS builds)](#configure-expo-required-before-eas-builds)
     - [Run in Development](#run-in-development)
     - [Platform-Specific Builds](#platform-specific-builds)
     - [Quality Gates](#quality-gates)
@@ -128,6 +129,28 @@ git clone https://github.com/S5ra6/Expense-Tracker.git
 cd Expense-Tracker
 npm install
 ```
+
+### Configure Expo (required before EAS builds)
+After cloning, open `app.json` and replace the placeholder values with your own Expo account details:
+
+| Placeholder | Where to find / what to use |
+|-------------|----------------------------|
+| `YOUR_EAS_PROJECT_ID` | Run `eas init` or copy the Project ID from your Expo dashboard |
+| `YOUR_EXPO_OWNER` | Your Expo username (visible at expo.dev) |
+
+Example diff:
+```diff
+-  "projectId": "YOUR_EAS_PROJECT_ID"
++  "projectId": "733c70fb40-fa0d-4983c-84d0-4eb5483230bb6"
+...
+-  "owner": "YOUR_EXPO_OWNER"
++  "owner": "johndoe"
+...
+-  "url": "https://u.expo.dev/YOUR_EAS_PROJECT_ID"
++  "url": "https://u.expo.dev/73c70fb0-fa0d-498c-84d0-4eb548330bb6"
+```
+
+> **Note:** You can skip this step if you only run locally via Expo Go (`npm start`). The placeholders must be replaced before running `eas build` or `eas update`.
 
 ### Run in Development
 ```bash
