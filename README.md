@@ -35,6 +35,7 @@ This project satisfies the requirements of the Mobile Application Development pr
   - [Settings \& Theme Preferences](#settings--theme-preferences)
   - [Testing \& Debugging](#testing--debugging)
   - [Known Issues \& Future Improvements](#known-issues--future-improvements)
+  - [Academic Project](#academic-project)
   - [License](#license)
 
 ## Assessment Alignment
@@ -193,5 +194,12 @@ npm run typecheck    # TypeScript structural checks
 - **Currency locked per profile** – Changing currency simply toggles formatting; FX conversion rules are out of scope for this release.
 - **Budget notifications require foreground app start** – iOS background scheduling is limited without a native notification service extension.
 
+## Academic Project
+This is an educational project developed as part of:
+
+Module: UFCF7H-15-3 Mobile Applications Module
+Institution: University of West of England in association with Villa College
+
 ## License
-MIT License (see `LICENSE` placeholder or update with institutional requirement).
+MIT License
+
