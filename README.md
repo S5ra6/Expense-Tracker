@@ -33,6 +33,7 @@ This project satisfies the requirements of the Mobile Application Development pr
   - [Calendar Range Picker](#calendar-range-picker)
   - [Budgets Overview](#budgets-overview)
   - [Settings \& Theme Preferences](#settings--theme-preferences)
+  - [🛠 Technologies Used](#-technologies-used)
   - [Testing \& Debugging](#testing--debugging)
   - [Known Issues \& Future Improvements](#known-issues--future-improvements)
   - [Academic Project](#academic-project)
@@ -159,27 +160,43 @@ npm run typecheck    # TypeScript structural checks
 
 ## Home / Transactions 
 
-![alt text](image.png)
+<img src="image.png" alt="Home & Transactions " width="500" />
 
 ## Add / Edit Transaction Flow 
 
-![alt text](image-1.png)
+<img src="image-1.png" alt="Add & Edit Transaction Flow " width="500" />
 
 ## Summary Dashboard 
 
-![alt text](image-2.png)
+<img src="image-2.png" alt="Summary Dashboard " width="500" />
 
 ## Calendar Range Picker  
 
-![alt text](image-3.png)
+<img src="image-3.png" alt="Calendar Range Picker" width="500" />
 
 ## Budgets Overview 
 
-![alt text](image-4.png)
+<img src="image-4.png" alt="Budgets Overview" width="500" />
 
 ## Settings & Theme Preferences 
 
-![alt text](image-5.png)
+<img src="image-5.png" alt="Settings & Theme Preferences" width="500" />
+
+## 🛠 Technologies Used
+
+*   **Framework:** React Native (Expo SDK 52)
+*   **Language:** TypeScript
+*   **UI Component Library:** React Native Paper (Material Design 3)
+*   **Navigation:** React Navigation (Native Stack & Bottom Tabs)
+*   **State Management:** React Context API + `useReducer`
+*   **Persistence:** `@react-native-async-storage/async-storage`
+*   **Charts:** `react-native-chart-kit`
+*   **Date Handling:** `date-fns`
+*   **Native Features:**
+    *   `expo-image-picker` (Camera/Gallery)
+    *   `expo-file-system` (Image caching)
+    *   `expo-notifications` (Reminders)
+    *   `expo-linear-gradient` (UI styling)
 
 ## Testing & Debugging
 - **Smoke Tests** – Add, edit, and delete multiple transactions; restart the app to confirm hydration works.
